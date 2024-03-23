@@ -1,0 +1,4 @@
+Model,Features,Parameters,Hyperparameters,Accuracy,Precision,Recall,F1 Score,ROC-AUC Score
+Logistic Regression,"Dummy variables for department, objectName, culture; Standardized numeric features","Max Iterations: 1000",N/A,0.84,0.83,0.99,0.90,0.80
+Random Forest,"Dummy variables for department, culture; Imputed missing values; Standardized numeric features","Number of Estimators: 100",N/A,0.92,0.929,0.9664,0.9474,0.942
+
